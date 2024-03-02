@@ -12,7 +12,7 @@ body{
 .wrapper{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(120deg, #662D8C ,#ED1E79);
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
 }
 
 .container{
@@ -27,7 +27,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
+
 .left{
     width: 60%;
     height: 100%;
@@ -44,6 +46,10 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #662D8C;
+    color: #fff;
+    /* background-image: linear-gradient(120deg, #ff5858 10%, #f09819 90%); */
+    background-color: #f09819 ;
+
+
 
 }
