@@ -45,7 +45,12 @@ body{
 }
 
 .left h1{
-    fo
+    font-size: 8rem;
+}
+
+.left h4{
+    font-size: 2rem;
+
 }
 
 .right{
@@ -58,4 +63,13 @@ body{
     color: #fff;
     /* background-image: linear-gradient(120deg, #ff5858 10%, #f09819 90%); */
     background-color: #f09819 ;
+}
+
+.right h2{
+    font-size: 2rem;
+}
+
+.right h4{
+    font-size: 3rem;
+
 }
