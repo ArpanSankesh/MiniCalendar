@@ -1,7 +1,7 @@
-const Date = document.querySelector('.date')
-const Day = document.querySelector('.day')
-const Month = document.querySelector('.Month')
-const Year = document.querySelector('.Year')
+const DateEl = document.querySelector('.date')
+const DayEl = document.querySelector('.day')
+const MonthEl = document.querySelector('.month')
+const YearEl = document.querySelector('.year')
 
 const weekDays = ["Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"]
 
@@ -9,8 +9,11 @@ const allMonths = ["January", "February", "March", "April", "May", "June", "July
 
 const today = new Date();
 
-Date.innerHTML = today.getDate();
-Day.innerHTML = weekDays[today.getDay()];
-Month.innerHTML = allMonths[today.getMonth()];
-year.innerHTML = today.getFullYear();
+DateEl.textContent = today.getDate();
+DayEl.textContent = weekDays[today.getDay()];
+MonthEl.textContent = allMonths[today.getMonth()];
+YearEl.textContent = today.getFullYear();
+
+
+
 
