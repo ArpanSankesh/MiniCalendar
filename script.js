@@ -9,3 +9,8 @@ const allMonths = ["January", "February", "March", "April", "May", "June", "July
 
 const today = new Date();
 
+Date.innerHTML = today.getDate();
+Day.innerHTML = weekDays[today.getDay()];
+Month.innerHTML = allMonths[today.getMonth()];
+year.innerHTML = today.getFullYear();
+
